@@ -1,4 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
+echo -e "\e[32m "
 wget -O /data/data/com.termux/files/usr/share/figlet/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
 pkg install wget toilet figlet unzip curl -y
 sleep 1
