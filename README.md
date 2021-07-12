@@ -22,6 +22,7 @@ usage of auto-ngrok-installer to portfoward content withour prior mutual content
 ```
 git clone https://github.com/n1lby73/auto-ngrok-installer
 cd auto-ngrok-installer
+chmod +x *
 ./ngrok.sh
 ```
 ### Usage(Termux)
