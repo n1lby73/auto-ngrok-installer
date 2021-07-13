@@ -18,19 +18,28 @@ usage of auto-ngrok-installer to portfoward content withour prior mutual content
 
 
 
-### Usage(Debian):
+### Usage:
+
+## Debian:
 ```
 git clone https://github.com/n1lby73/auto-ngrok-installer
 cd auto-ngrok-installer
 chmod +x *
 ./ngrok.sh
 ```
-### Usage(Termux)
+## Termux
 ```
 git clone https://github.com/n1lby73/auto-ngrok-installer
 cd auto-ngrok-installer
 chmod +x *
-bash termux.sh
+./termux.sh
+```
+## Arch/Manjero
+```
+git clone https://github.com/n1lby73/auto-ngrok-installer
+cd auto-ngrok-installer
+chmod +x *
+./manjero.sh
 ```
 ### Donate!
 Support the authors:
