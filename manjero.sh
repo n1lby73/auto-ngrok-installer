@@ -1,16 +1,16 @@
 #!/usr/bin/bash
+echo -e "\e[32m"
 sudo pacman -S update && sudo pamac upgrade -y && sudo pamac install wget figlet unzip ruby -y
 sudo gem install lolcat
 sudo wget -O $PREFIX/usr/share/font/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf && sudo pacman -S update
-#wget -O /data/data/com.termux/files/usr/share/figlet/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
-#pkg install wget toilet figlet unzip curl -y
+
 sleep 1
 echo " "
 echo -n -e "\e[31mpress enter to continue\e[32m..... "
 read ts2
 clear
 
-toilet -f ASCII-Shadow -F border:metal ngrok
+figlet -f ASCII-Shadow -F border:metal ngrok
 echo -e "\e[1;36m   		.:.:. \e[0m\e[1;35m creator || n1lby73 \e[1;36m.:.:."
 echo " "
 echo -e ".:.\e[1;35m email: n1lby73@gmail.com | github: github.com/n1lby73 \e[1;36m.:."
@@ -29,7 +29,7 @@ read -p $'\e[31mchoose an option\e[33m:\e[32m ' choose
 if [[ $choose == 1 || $choose == 01 ]]; then
 echo " "
 echo -e "\e[36minstalling all neccessary configuration\e[31m.....\e[32m"
-sleep 1/data/data/com.termux/files/data/data/com.termux/files/data/data/com.termux/files/dd/data/data/com.termux/files/data/data/com.termux/filesata/data/com.termux/files
+sleep 1
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 sleep 2
 echo " "
