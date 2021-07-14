@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 echo -e "\e[32m"
-sudo pacman -S update && sudo pamac upgrade -y && sudo pamac install wget figlet unzip ruby -y
+sudo pacman -S update && sudo pamac upgrade -y && sudo pamac install wget toilet unzip ruby -y
 sudo gem install lolcat
 sudo wget -O $PREFIX/usr/share/font/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf && sudo pacman -S update
 
@@ -10,7 +10,7 @@ echo -n -e "\e[31mpress enter to continue\e[32m..... "
 read ts2
 clear
 
-figlet -f ASCII-Shadow -F border:metal ngrok
+toilet -f ASCII-Shadow -F border:metal ngrok
 echo -e "\e[1;36m   		.:.:. \e[0m\e[1;35m creator || n1lby73 \e[1;36m.:.:."
 echo " "
 echo -e ".:.\e[1;35m email: n1lby73@gmail.com | github: github.com/n1lby73 \e[1;36m.:."
