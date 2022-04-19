@@ -43,8 +43,8 @@ chmod +x *
 ```
 ### Donate!
 Support the authors:
-### Paypal:
-https://www.paypal.com/donate?hosted_button_id=KMPJAASFJC3FW
+<!--### Paypal:
+https://www.paypal.com/donate?hosted_button_id=KMPJAASFJC3FW -->
 ### Bitcoin:
 bc1ql28smhjra82vn5laj9qfc8su7qa70q6l8274ep
 ### Ethereum:
