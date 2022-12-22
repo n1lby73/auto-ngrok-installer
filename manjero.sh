@@ -38,6 +38,12 @@ echo -e "\e[36mconfiguring ngrok to work wth your terminal\e[31m.....\e[32m"
 sleep 2
 unzip ngrok-stable-linux-amd64.zip
 rm -rf ngrok-stable-linux-amd64.zip
+
+sleep 1
+
+echo -e "\e[36mmoving ngrok to path enviroment\e[31m.....\e[32m"
+sudo cp ngrok /usr/local/bin
+
 sleep 2
 
 echo " "
